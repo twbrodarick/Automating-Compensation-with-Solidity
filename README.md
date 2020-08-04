@@ -22,4 +22,4 @@ DeferredEquityPlan:  0xcc386992C3Ef57e18aC36B68962F757cfdcf9617
 * The contract was initially coded to manage 1000 share awards to annually distribute 250 shares over 4 years to one employee
 
 #### Note
-* Please see .sol files in the Contract_Codes folder in this repo for individual contract codes
+* Please see .sol files in the Contract_Codes folder in this repo for individual contract code
