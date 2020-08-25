@@ -23,7 +23,7 @@ contract DeferredEquityPlan {
         require(msg.sender == human_resources || msg.sender == employee, "You are not authorized to execute this contract.");
         require(active == true, "Contract not active.");
         require(unlock_time <= now, "Shares have not vested yet");
-        require(distributed_shares < total_shares, "Share have been completely distributed");
+        require(distributed_shares < total_shares, "Shares have been completely distributed");
         
         unlock_time += 365 days;
 
